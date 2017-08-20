@@ -1,0 +1,401 @@
+/* Start Global*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smooth: antialiased !important;
+  overflow-x: hidden;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  transition: all 500ms ease-in-out;
+}
+
+a:hover,
+a:active{
+  text-decoration: none;
+}
+
+h1,
+h2,
+h4 {
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+p {
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.btn {
+  transition: all 300ms ease-in-out;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #ededed !important;
+  color: #3c3c3c !important;
+}
+
+.active a {
+  background-color: black !important;
+}
+
+
+/* End Global*/
+
+/* Navigation */
+
+.navbar-fixed-top.scrolled {
+  background-color: #222222 !important;
+  transition: background-color 500ms ease-out;
+}
+
+header .navbar {
+
+  background-color: transparent !important;
+  border-bottom: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-weight: 700;
+  transition: background-color 200ms ease-in;
+}
+
+header .navbar  a {
+  color: #ffffff !important;
+  opacity: 0.7;
+}
+header .navbar a:hover {
+  opacity: 1;
+  background-color: #111111 !important;
+}
+
+
+/* Header Section */
+
+.header {
+  height: 600px;
+  width: 100%;
+  padding: 30px 0 30px 0;
+  background-image: url("../img/bg3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #ffffff;
+}
+
+section.header article h1, section.header aside img {
+  padding-top: 30px;
+  margin: 70px 0 0 40px;
+}
+
+section.header aside img {
+  height: 350px;
+  width: 450px;
+}
+
+section.header article h1 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+section.header article h1,
+section.header article p,
+section.header article .btn {
+  margin-top: 40px;
+}
+
+section.header article .btn {
+  border-radius: 0;
+  margin: 40px 20px;
+}
+section.header .nav-header {
+  background-color: black;
+}
+@media(max-width: 992px)  {
+  header .navbar {
+    background-color: #111111 !important;
+  }
+
+  section.header aside img{
+    margin: 10px 0 20px 0;
+  }
+  section.header article .btn,
+  section.header aside img,
+  section.header article h1 {
+    margin: 0;
+  }
+
+  section.header article h1 {
+    font-size: 25px;
+    margin-top:  15px;
+  }
+  section.header article p {
+    font-size: 13px;
+  }
+  section.header aside img {
+    height: 230px;
+    width: 90%;
+  }
+  section.header article .btn {
+    height: 30px;
+    font-size: 12px;
+    padding: 0 20px 0 20px;
+  }
+}
+
+
+/* Start Services Section */
+
+section.services {
+  padding: 50px 0 80px 0;
+  text-align: center;
+}
+
+section.services h2,
+section.services h4 {
+  color: #4c4c4c;
+  margin: 20px 0;
+}
+
+section.services p {
+  color: #737373;
+  font-size: 13px;
+  padding-bottom: 40px;
+}
+
+section.services i {
+  height: 80px;
+  width: 80px;
+  font-size: 30px;
+  padding: 25px 20px;
+  border-radius: 50%;
+  background-color: #6699cc;
+  color: #ffffff;
+}
+
+/* End Services */
+
+/* Start Pricing */
+
+section.pricing {
+  padding: 50px 0 80px 0;
+  background-color: #3399ff;
+  text-align: center;
+}
+
+section.pricing .pricing-header {
+  color: #ffffff;
+}
+
+section.pricing .pricing-header p {
+  padding-bottom: 40px;
+}
+
+section.pricing .packages {
+  padding: 30px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+section.pricing .packages li {
+  display: block;
+  padding: 5px;
+}
+
+section.pricing .packages h4,
+section.pricing .packages h1,
+section.pricing .packages b {
+  color: #4c4c4c;
+}
+
+section.pricing .packages p,
+section.pricing .packages li {
+  color: #737373;
+}
+
+section.pricing .btn{
+  margin-top: 20px;
+  padding: 5px 30px;
+}
+
+@media(max-width: 768px) {
+
+  section.pricing .packages {
+    margin: 10px auto;
+    width: 80%;
+  }
+}
+
+/* End Pricing */
+
+/* Start Team */
+
+section.team {
+
+  padding: 50px 0px 80px 0px;
+}
+
+section.team b,
+section.team h2,
+section.team h4 {
+
+  margin: 20px 0 20px 0;
+  color: #4c4c4c;
+}
+
+section.team p {
+
+  color: #737373;
+}
+
+section.team img {
+
+  width: 150px;
+  margin-top: 80px;
+}
+
+section.team i {
+
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  font-size: 17px;
+  border-radius: 50px;
+  background-color: #a0db8e;
+  color: #ffffff;
+}
+
+section.team i:hover {
+  background-color: #709963;
+}
+
+/* End Team */
+
+/* Start Client */
+
+section.client{
+
+  padding: 50px 0 80px 0;
+  background: #3399ff;
+  text-align: center;
+  color: #ffffff;
+}
+
+section.client h2 {
+
+  color: #5e5e5e;
+}
+
+section.client p {
+
+  padding-bottom: 40px;
+}
+
+section.client img {
+  width: 200px;
+  opacity: 0.6;
+  cursor: pointer;
+  margin: 40px 0;
+  transition: all 800ms ease-in-out;
+}
+section.client img:hover {
+
+  opacity: 1;
+}
+
+/*Start contact*/
+
+section.contact {
+
+  padding: 50px 0 80px 0;
+}
+
+section.contact header p {
+
+  margin-bottom: 80px;
+  color: #737373;
+}
+
+section.contact .input-group {
+
+  margin-bottom: 25px;
+}
+
+section.contact .form-control {
+
+  border-radius: 0 !important;
+}
+
+section.contact span {
+
+  border-radius: 0 !important;
+}
+section.contact .btn {
+
+  border-radius: 0 !important;
+  width: 100%;
+  font-size: 15px;
+  background-color: #f08080;
+  color: #ffffff;
+}
+
+section.contact .btn:hover {
+
+  background-color: #a85959 !important;
+  color: #ffffff !important;
+}
+
+/* Start Footer */
+
+footer {
+
+  padding: 20px;
+  background-color: #222222;
+  color: #cccccc;
+}
+
+footer a {
+
+  color: #fff !important;
+}
+
+footer .soclial {
+
+  font-size: 20px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  padding-top: 5px;
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+footer input {
+  height: 40px;
+  width: 160px;
+  padding: 5px;
+}
+footer button {
+  height: 40px;
+}
+/* End Footer */
